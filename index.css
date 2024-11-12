@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sain {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: #ffffff;
+}
+.nav-div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.nav-div-1>h2{
+    font-size: 45px;
+    color: #0B0223
+    #0B0223;
+}
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
+.nav-ul > li{
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #0B02231A;
+}
+.banner{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+.banner-div-1{
+    background: url(image/Group\ 14.png);
+    background-position: center;
+    padding-left: 140px;
+    padding-top: 150px;
+}
+.banner-div-1 > h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0B0223;
+    margin-bottom: 5px;
+}
+.banner-div-1 > h2{
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip:    text;
+    margin-bottom: 24px;
+}
+.banner-div-1 > div{
+    display:flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+}
+.btn-1{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: #EE2E92;
+    border-radius: 48px;
+    margin-top: 10px;
+}
+.btn-2{
+    background-color: #4EC5F7;
+}
+.banner-div-2{
+    padding-right: 140px;
+    padding-top: 120px;
+}
+.banner-div-2 > img{
+    width: 100%;
+    height: auto;
+}
+.section-1{
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);;
+}
+.section-1 > div{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.6fr 1.4fr;
+    justify-content: center;
+    align-items: center;
+}
+.color-text{
+    font-size: 48px; 
+    font-weight: 700;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.section-1 > div > div > h2{
+    text-align: end;
+    margin-bottom: 24px;
+}
+.text-2{
+    text-align: end;
+    font-size: 18px;
+    color: #534C64;
+    margin-bottom: 32px;
+}
+.text{
+    font-size: 32px;
+    text-align: end;
+    color: #534C64;
+    font-weight: 700;
+}
+.upper-text{
+    font-size: 18px;
+    color: #534C64;
+    font-weight: 500;
+}
+.section-1-img{
+    width: 830px;
+    height: auto;
+}
+.section-2{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.section-2 > h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+    margin-bottom: 15px;
+}
+.section-2 > p{
+    font-size: 18px;
+    color: #534C64;
+    margin-bottom: 48px;
+    text-align: center;
+}
+.cards{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin: auto;
+}
+.card-description{
+    font-size: 18px;
+    font-weight: 500;
+    color: #534C64;
+}
+/* .section-3{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 120px;
+}
+.section-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.section-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+    text-align: end;
+    margin-bottom: 24px;
+    margin-top: 220px;
+}
+.section-text{
+    font-size: 18px;
+    color: #534C64;
+    text-align: end;
+}
+.grid-2{
+    position: relative;
+    margin-left: 200px;
+}
+.grid-3{
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+.grid-1{
+    width: 400px;
+} */
+.play-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.play-div-img{
+    width: 100%;
+    height: auto;
+}
+.section-4{
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+}
+.play-div-title{
+    margin-top: 120px;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 24px;
+}
+.play-div-1{
+    padding-left: 150px;
+}
+.play-description{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 32px;
+}
+.link > p{
+    margin-bottom: 10px;
+}
+.link > p:hover{
+    text-decoration: underline;
+}
+.play-div-1 > button{
+    padding: 10px 20px;
+    background: white;
+    border: none;
+    border-radius: 48px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+.section-5{
+    padding: 130px 150px;
+}
+.section-5 > div > div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 40px;
+}
+.section-5 > div{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.section-5 > div > div > p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0B0223;
+}
+footer{
+    padding: 120px 0px;
+    background: #0B0223;
+}
+.footer-link{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+.icon-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 25px;
+}
+.text-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF99;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.footer-description{
+    text-align: center;
+    color: #FFFFFF99;
+}
